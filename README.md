@@ -41,6 +41,8 @@ we request the annotators to extract all multi-turn dialogues from the books. Be
 
 ### Test Data
 
+HPD constructs a test set with 178 dialogue sessions to evaluate how similar a dialogue system is to Harry Potter. Each session in our test set consists of at least one positive response and 9 negative responses. This test set can facilitate the evaluation of both generation-based and retrieval-based dialogue systems.
+
 ### Attributes and Relations
 
 We divide the attributes into two categories: (1) inborn; (2) nurture. The former denotes some innate attributes or abilities, which contains $\texttt{Gender}, \texttt{Age}, \texttt{Lineage}, \texttt{Talents}, \texttt{Looks}$. The latter refers to properties through acquired efforts or opportunities, including  $\texttt{Achievement}, \texttt{Title}, \texttt{Belongings}, \texttt{Export},  \texttt{Hobby}, \texttt{Character}, \texttt{Spells} , \texttt{Nickname}$.
