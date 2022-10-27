@@ -123,13 +123,13 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 
 | Train | Chinese|English| Test | Chinese|English|
 | :----- | :-------------------:| :------------------: |:----- | :-------------------:| :------------------: |
-| Average Turns | 13.8  | 80.3 / 88.4 |Average Turns | 8.6 | 80.3 / 88.4 |
-| Maximum Speakers| 20  | 62.4 / 79.0 |Maximum Speakers| 8 | 62.4 / 79.0 |
-| Minimum Speakers | 2  | 68.2 / 74.7 |Minimum Speakers | 2 | 68.2 / 74.7 |
-| Average Length | 32.9 | 49.6 / 66.3 |Average Length | 28.3| 49.6 / 66.3 |
-| Maximum Length | 77 | 71.8 / 79.0 |Maximum Length | 31 | 71.8 / 79.0 |
-| Minimum Length | 3 | 67.9 / 79.8 |Minimum Length | 7 | 67.9 / 79.8 |
-| Total Dialogues | 1042 | 34.6 / 43.8 |Total Dialogues | 178 | 34.6 / 43.8 |
+| Average Turns | 13.8  | 14.25  |Average Turns | 8.6 | 6.58 |
+| Maximum Speakers| 20  | 20 |Maximum Speakers| 8 | 8 |
+| Minimum Speakers | 2  | 2  |Minimum Speakers | 2 | 2 |
+| Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
+| Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
+| Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
+| Total Dialogues | 1042 | 1111 |Total Dialogues | 178 | 165 |
 
 
 
