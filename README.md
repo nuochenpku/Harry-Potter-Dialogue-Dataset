@@ -129,7 +129,7 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 | Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
 | Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
 | Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
-| Total Dialogues | 1042 | 1110 |Total Dialogues | 178 | 165 |
+| Total Dialogues | 1042 | 1097 |Total Dialogues | 178 | 165 |
 
 
 
