@@ -35,6 +35,8 @@ Our dataset are annotated by four professional annotaters (Harry Potter Fans), w
 - Another one is responsible for intergrating their annotations to get high agreement data;
 - Last, we manually double-check and revise mistakes to further ensure the data quality.
 
+Considering not all characters are essential to understanding and driving the story in Harry Potter series, we choose ***113 important characters*** to annotate their attributes and relations, such as Harry, Ron and etc.
+
 ### Training Data
 
 we request the annotators to extract all multi-turn dialogues from the books. Besides, the speaker name of each utterance in the session is labeled as well. As result, we collect 1042 dialogue sessions as our training set.
@@ -116,7 +118,7 @@ We process our data in a unified format, and store in json files. The general fo
 - **Attributes:** Character attributes.
 - **Relations:** Character Relations With Harry.
 
-Also, we can free to change our dataset into other formats, such as ***Personal-Dialogue Format***.
+Also, we can free to change our dataset into other formats, such as ***Personal-Dialogue Format***. Notice that, sometimes "Relations With Harry" could be none if the dialogue speakers not in the annotated 113 important characters.
 
 ### Data Stastics
 
@@ -135,8 +137,36 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 
 ### Data Download
 
-## Evaluation
+## Baseline Evaluation and download
 
-## Baseline
+Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
+### Automatic Evaluation
+#### Generative Models
+|Model |  $\textbf{Dist.1}(\uparrow)$| $\textbf{PPL}(\downarrow)$ | $\Delta\textbf{P}(\uparrow)$ | $\textbf{MAuVE}(\uparrow)$ | ${\Delta \textbf{M}}(\uparrow)$  |
+| :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
+| GPT-2 | 9.86  | 18.3 | 0.12| 0.809 | -0.164 |
+| Ori-BOB | 12.87|  3.03| 0.21| 0.940|-0.011 | 
+| Per-BOB | 13.25 |  2.41| 0.08|0.948| 0.003 |
+|  [EVA](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Er9KPQnj5TZHk4K5nCZYRCkBRSJ9idwMJwf41T0raZs3FQ?e=0bV0gb)    | 23.01    | 37.8 | 0.54|0.968| 0.192 |
 
+#### Retrieval-based Models
+
+|Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{P10@5}(\uparrow)$   |
+| :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
+| BERT-FP | 0.468  | 0.468 | 0.259 | 0.259 | 0.807 |
+
+The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparrow)$ please refer to our paper (Section 5.2).
+
+#### Human Evaluation
+|Model |  $\textbf{Fluency}$ | $\textbf{Relevance with the Scene}$ | $\textbf{Relevance with the  Attributes}$ | $\textbf{Relevance with the Relations}$  |
+| :----- | :-------------------:| :------------------: |:------------------: |:------------------: |
+| GPT-2 | 3.34  |1.68   | 1.9 | 1.5 |
+| EVA |  $\textbf{4.27}$ | $\textbf{2.38}$  | $\textbf{2.5}$ | 2.04 | 
+| Ori-BOB | 4.01  | 1.93 |  1.78 |1.9 |
+| Per-BOB  |4.2  | 2.01 |  2.16 | $\textbf{2.15}$ |
+
+Note: 
+- We initialize GPT-2 model from the checkpoint which pre-trained in the Tencent business data (the general results are much better than open-source GPT-2), hence we don't public the source of our GPT-2 here.
+- We initialize our BOB models from [here](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiNa1Hd844BPjrifPzmQMH0By_OppTRQ4nO9uBQR2aQo7Q?e=pQ4qTu). The training scripts of BOB please refer to its originial  [project](https://github.com/songhaoyu/BoB).
+- The training scripts of EVA please refer to its originial  [project](https://github.com/thu-coai/EVA).
 ## Citation
