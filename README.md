@@ -167,7 +167,7 @@ Here we report automatic and huaman evaluations results of four baselines in our
 
 #### Retrieval-based Models
 
-|Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{P10@5}(\uparrow)$   |
+|Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{R10@5}(\uparrow)$   |
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
 | BERT-FP | 0.468  | 0.468 | 0.259 | 0.259 | 0.807 |
 
