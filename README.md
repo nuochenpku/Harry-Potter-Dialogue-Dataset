@@ -169,7 +169,7 @@ Here we report automatic and huaman evaluations results of four baselines in our
 
 |Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{R10@5}(\uparrow)$   |
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
-| BERT-FP | 0.468  | 0.468 | 0.259 | 0.259 | 0.807 |
+| BERT-FP | 0.468  | 0.468 | 0.259 | 0.259 | 0.788 |
 
 The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparrow)$ please refer to our paper (Section 5.2).
 
