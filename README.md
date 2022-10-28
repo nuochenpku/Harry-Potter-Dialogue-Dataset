@@ -122,7 +122,7 @@ We process our data in a unified format, and store in json files. The general fo
 ```
 #### Fields
 
-- **dialogue-xx** Denotes the index of the dialogue in our dataset.
+- **dialogue-xx:** Denotes the index of the dialogue in our dataset.
 - **Position:** Denotes the timeline of the dialogue in the novel. "ChapterX-Y" refers to the dialogue occurs in the Y-th scene of X-th Chapter in the book.
 - **Speakers:** Participants in the dualogue.
 - **Scene:** Context of the dialogue.
