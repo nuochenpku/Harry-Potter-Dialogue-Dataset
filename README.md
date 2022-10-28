@@ -1,5 +1,10 @@
 # Harry-Potter-Dialogue-Dataset
  This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***).
+ 
+ 
+
+ 
+ 
 ## Overview
 We present HPD: Harry Potter Dialogue Dataset to facilitate the study of building dialogue agents for characters in a story. It differs from existing dialogue datasets in two aspects: 1) HPD provides rich background information about the novel Harry Potter, including scene, character attributes, and character relations; 2) All these background information will change as the story goes on. In other words, each dialogue session in HPD correlates to a different background, and the storyline determines how the background changes.
 
@@ -15,8 +20,17 @@ $$\mathcal{Y}=argmax_Y \textit{P}(\mathbf{Y}|\mathbf{H},\mathbf{S},\mathbf{P})$$
 
 In this repository, we release ***Chinese and English*** versions of collected ***HPD***. Notice that, due to the misalignment of English and Chinese story corpus, the  collected data in English and Chinese may slightly differ.
 
-
 ### Quick Links
+
+- [Datasets](#datasets)
+ - [Training Data](#training-data)
+ - [Attributes and Relations](#attributes-and-relations)
+ - [Data Format](#data-format)
+ - [Data Stastics](#data-stastics)
+ - [Data Download](#data-download)
+- [Baseline Evaluation and Download](#baseline-evaluation-and-download)
+- [Citation](#citation)
+
 
 
 
@@ -136,8 +150,10 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 
 
 ### Data Download
+#### Ethical Statement
+To avoid the potential issue of using Harry Potter Novels, we promise the annotated dataset is developed for non-commercial use. Moreover, we only provide the line number and page number of each collected dialogue in Harry Potter novel rather than give the detailed content of each dialogue session.  We further supply the script to extract corresponding raw dialogue data from the novels according to the provided line and page numbers. As for the annotated character attributes and relations, we have our own copyright and will release for research communities.
 
-## Baseline Evaluation and download
+## Baseline Evaluation and Download
 
 Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
 ### Automatic Evaluation
@@ -146,7 +162,7 @@ Here we report automatic and huaman evaluations results of four baselines in our
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
 | GPT-2 | 9.86  | 18.3 | 0.12| 0.809 | -0.164 |
 | Ori-BOB | 12.87|  3.03| 0.21| 0.940|-0.011 | 
-| Per-BOB | 13.25 |  2.41| 0.08|0.948| 0.003 |
+| [Per-BOB](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EtsoTZX_FiROurpSeMMvz58Baf8WRMMSms0KH6Tr6Kew_w?e=JwmHVB) | 13.25 |  2.41| 0.08|0.948| 0.003 |
 |  [EVA](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Er9KPQnj5TZHk4K5nCZYRCkBRSJ9idwMJwf41T0raZs3FQ?e=0bV0gb)    | 23.01    | 37.8 | 0.54|0.968| 0.192 |
 
 #### Retrieval-based Models
@@ -161,12 +177,15 @@ The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparr
 |Model |  $\textbf{Fluency}$ | $\textbf{Relevance with the Scene}$ | $\textbf{Relevance with the  Attributes}$ | $\textbf{Relevance with the Relations}$  |
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |
 | GPT-2 | 3.34  |1.68   | 1.9 | 1.5 |
-| EVA |  $\textbf{4.27}$ | $\textbf{2.38}$  | $\textbf{2.5}$ | 2.04 | 
+| [EVA](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Er9KPQnj5TZHk4K5nCZYRCkBRSJ9idwMJwf41T0raZs3FQ?e=0bV0gb) |  $\textbf{4.27}$ | $\textbf{2.38}$  | $\textbf{2.5}$ | 2.04 | 
 | Ori-BOB | 4.01  | 1.93 |  1.78 |1.9 |
-| Per-BOB  |4.2  | 2.01 |  2.16 | $\textbf{2.15}$ |
+| [Per-BOB](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EtsoTZX_FiROurpSeMMvz58Baf8WRMMSms0KH6Tr6Kew_w?e=JwmHVB)  |4.2  | 2.01 |  2.16 | $\textbf{2.15}$ |
+
 
 Note: 
 - We initialize GPT-2 model from the checkpoint which pre-trained in the Tencent business data (the general results are much better than open-source GPT-2), hence we don't public the source of our GPT-2 here.
 - We initialize our BOB models from [here](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiNa1Hd844BPjrifPzmQMH0By_OppTRQ4nO9uBQR2aQo7Q?e=pQ4qTu). The training scripts of BOB please refer to its originial  [project](https://github.com/songhaoyu/BoB).
 - The training scripts of EVA please refer to its originial  [project](https://github.com/thu-coai/EVA).
+
+
 ## Citation
