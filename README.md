@@ -158,9 +158,9 @@ To avoid the potential issue of using Harry Potter Novels, we promise the annota
 #### Arrtibutes and Relations Download
 We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
 
-Chinese version of annotated character and relations can be download here: Attributes and Relations
+**Chinese** version of annotated character and relations can be download here: Attributes and Relations
 
-English version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
+**English** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
 
 
 ## Baseline Evaluation and Download
