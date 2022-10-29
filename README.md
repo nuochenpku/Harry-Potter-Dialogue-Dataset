@@ -153,6 +153,16 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 #### Ethical Statement
 To avoid the potential issue of using Harry Potter Novels, we promise the annotated dataset is developed for non-commercial use. Moreover, we only provide the line number and page number of each collected dialogue in Harry Potter novel rather than give the detailed content of each dialogue session.  We further supply the script to extract corresponding raw dialogue data from the novels according to the provided line and page numbers. As for the annotated character attributes and relations, we have our own copyright and will release for research communities.
 
+#### Training and Evaluate Data Download
+
+#### Arrtibutes and Relations Download
+We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
+
+Chinese version of annotated character and relations can be download here: Attributes and Relations
+
+English version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
+
+
 ## Baseline Evaluation and Download
 
 Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
@@ -169,7 +179,7 @@ Here we report automatic and huaman evaluations results of four baselines in our
 
 |Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{R10@5}(\uparrow)$   |
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
-| BERT-FP | 0.468  | 0.468 | 0.259 | 0.259 | 0.788 |
+|  [BERT-FP](https://drive.google.com/file/d/1fTrIh0LQ2NGtC0SS12k8dOz5WE40tzbG/view) | 0.468  | 0.468 | 0.259 | 0.259 | 0.788 |
 
 The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparrow)$ please refer to our paper (Section 5.2).
 
@@ -186,6 +196,7 @@ Note:
 - We initialize GPT-2 model from the checkpoint which pre-trained in the Tencent business data (the general results are much better than open-source GPT-2), hence we don't public the source of our GPT-2 here.
 - We initialize our BOB models from [here](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiNa1Hd844BPjrifPzmQMH0By_OppTRQ4nO9uBQR2aQo7Q?e=pQ4qTu). The training scripts of BOB please refer to its originial  [project](https://github.com/songhaoyu/BoB).
 - The training scripts of EVA please refer to its originial  [project](https://github.com/thu-coai/EVA).
+- We post-train BERT-FP models in [Douban corpus](https://github.com/hanjanghoon/BERT_FP) and then fine-tune in HPD dataset to get better performance.
 
 
 ## Citation
