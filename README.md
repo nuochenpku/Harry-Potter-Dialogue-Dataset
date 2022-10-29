@@ -175,13 +175,15 @@ Here we report automatic and huaman evaluations results of four baselines in our
 | [Per-BOB](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EtsoTZX_FiROurpSeMMvz58Baf8WRMMSms0KH6Tr6Kew_w?e=JwmHVB) | 13.25 |  2.41| 0.08|0.948| 0.003 |
 |  [EVA](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Er9KPQnj5TZHk4K5nCZYRCkBRSJ9idwMJwf41T0raZs3FQ?e=0bV0gb)    | 23.01    | 37.8 | 0.54|0.968| 0.192 |
 
+
+The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparrow)$ please refer to our paper (Section 5.2).
+
 #### Retrieval-based Models
 
 |Model |  $\textbf{MAR}(\uparrow)$| $\textbf{MRR}(\uparrow)$ | $\textbf{P@1}(\uparrow)$ | $\textbf{R10@1}(\uparrow)$  | $\textbf{R10@5}(\uparrow)$   |
 | :----- | :-------------------:| :------------------: |:------------------: |:------------------: |:------------------: |
 |  [BERT-FP](https://drive.google.com/file/d/1fTrIh0LQ2NGtC0SS12k8dOz5WE40tzbG/view) | 0.468  | 0.468 | 0.259 | 0.259 | 0.788 |
 
-The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparrow)$ please refer to our paper (Section 5.2).
 
 #### Human Evaluation
 |Model |  $\textbf{Fluency}$ | $\textbf{Relevance with the Scene}$ | $\textbf{Relevance with the  Attributes}$ | $\textbf{Relevance with the Relations}$  |
