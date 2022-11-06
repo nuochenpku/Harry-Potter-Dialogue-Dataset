@@ -95,12 +95,12 @@ Detailed annotation steps and rules can be seen in our paper.
 #### Ethical Statement
 To avoid the potential issue of using Harry Potter Novels, we promise the annotated dataset is developed for non-commercial use. Moreover, we only provide the line number and page number of each collected dialogue in Harry Potter novel rather than give the detailed content of each dialogue session.  We further supply the script to extract corresponding raw dialogue data from the novels according to the provided line and page numbers. As for the annotated character attributes and relations, we have our own copyright and will release for research communities.
 
-#### Training and Evaluate Data Download
+#### Download
 
 #### Arrtibutes and Relations Download
 We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
 
-**Chinese** version of annotated character and relations can be download here: Attributes and Relations
+**Chinese** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:u:/g/personal/nchen022_connect_hkust-gz_edu_cn/EY6t26kP-4RJmoK8Hj4WF5YBGLZPUxwQB0W3r5te5-mh6Q?e=beZkyH) and [Relations](https://hkustgz-my.sharepoint.com/:u:/g/personal/nchen022_connect_hkust-gz_edu_cn/EUWpgL8E00hOgxy2Fn5vB6YBGJPGd51r9mScQptjsqy9Cw?e=bSSAjy)
 
 **English** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
 
@@ -109,8 +109,8 @@ To be convenient for each researcher, we provide a executable file (.exe) to dir
 
 you can download the executable file from : [English] and [Chinese]
 
-Notice that, the executable file runs the transcript to process the novel in our server. Hence, you may need your vpn opened if you are in China Mainland.
-
+Notice that, the executable file runs the transcript to process the data in our server. Hence, you may need your vpn opened if you are in China Mainland.
+If you have any issuse with getting json files, please drop the email to chennuo26@gmail.com
 #### Data Format
 We process our data in a unified format, and store in json files. The general format is:
 
