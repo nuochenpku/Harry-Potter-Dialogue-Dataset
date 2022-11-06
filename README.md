@@ -74,7 +74,44 @@ $\texttt{Score(Affection)>0}$ denotes the character has the positive relationshi
 
 Detailed annotation steps and rules can be seen in our paper.
 
-### Data Format
+
+
+### Data Stastics
+
+
+| Train | Chinese|English| Test | Chinese|English|
+| :----- | :-------------------:| :------------------: |:----- | :-------------------:| :------------------: |
+| Average Turns | 13.8  | 14.25  |Average Turns | 8.6 | 6.58 |
+| Maximum Speakers| 20  | 20 |Maximum Speakers| 8 | 8 |
+| Minimum Speakers | 2  | 2  |Minimum Speakers | 2 | 2 |
+| Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
+| Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
+| Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
+| Total Dialogues | 1042 | 1097 |Total Dialogues | 178 | 165 |
+
+
+
+### Data Download
+#### Ethical Statement
+To avoid the potential issue of using Harry Potter Novels, we promise the annotated dataset is developed for non-commercial use. Moreover, we only provide the line number and page number of each collected dialogue in Harry Potter novel rather than give the detailed content of each dialogue session.  We further supply the script to extract corresponding raw dialogue data from the novels according to the provided line and page numbers. As for the annotated character attributes and relations, we have our own copyright and will release for research communities.
+
+#### Training and Evaluate Data Download
+
+#### Arrtibutes and Relations Download
+We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
+
+**Chinese** version of annotated character and relations can be download here: Attributes and Relations
+
+**English** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
+
+#### Json-File Download
+To be convenient for each researcher, we provide a executable file (.exe) to directly extract the line number and page number of each collected dialogue in Harry Potter novel with annotated attributes and relations into json-files.
+
+you can download the executable file from : [English] and [Chinese]
+
+Notice that, the executable file runs the transcript to process the novel in our server. Hence, you may need your vpn opened if you are in China Mainland.
+
+#### Data Format
 We process our data in a unified format, and store in json files. The general format is:
 
 ```
@@ -134,33 +171,8 @@ We process our data in a unified format, and store in json files. The general fo
 
 Also, we can free to change our dataset into other formats, such as ***Personal-Dialogue Format***. Notice that, sometimes "Relations With Harry" could be none if the dialogue speakers not in the annotated 113 important characters.
 
-### Data Stastics
 
 
-| Train | Chinese|English| Test | Chinese|English|
-| :----- | :-------------------:| :------------------: |:----- | :-------------------:| :------------------: |
-| Average Turns | 13.8  | 14.25  |Average Turns | 8.6 | 6.58 |
-| Maximum Speakers| 20  | 20 |Maximum Speakers| 8 | 8 |
-| Minimum Speakers | 2  | 2  |Minimum Speakers | 2 | 2 |
-| Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
-| Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
-| Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
-| Total Dialogues | 1042 | 1097 |Total Dialogues | 178 | 165 |
-
-
-
-### Data Download
-#### Ethical Statement
-To avoid the potential issue of using Harry Potter Novels, we promise the annotated dataset is developed for non-commercial use. Moreover, we only provide the line number and page number of each collected dialogue in Harry Potter novel rather than give the detailed content of each dialogue session.  We further supply the script to extract corresponding raw dialogue data from the novels according to the provided line and page numbers. As for the annotated character attributes and relations, we have our own copyright and will release for research communities.
-
-#### Training and Evaluate Data Download
-
-#### Arrtibutes and Relations Download
-We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
-
-**Chinese** version of annotated character and relations can be download here: Attributes and Relations
-
-**English** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
 
 
 ## Baseline Evaluation and Download
