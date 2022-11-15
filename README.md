@@ -1,5 +1,5 @@
 # Harry-Potter-Dialogue-Dataset
- This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***).
+ This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***). The HPD is proposed in the paper: [**What would Harry say? Building Dialogue Agents for Characters in a Story**](https://arxiv.org/abs/2211.06869)
  
  
 
