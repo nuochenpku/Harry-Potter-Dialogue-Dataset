@@ -214,3 +214,11 @@ Note:
 
 
 ## Citation
+```
+  @article{chen2022would,
+  title={What would Harry say? Building Dialogue Agents for Characters in a Story},
+  author={Chen, Nuo and Wang, Yan and Jiang, Haiyun and Cai, Deng and Chen, Ziyang and Li, Jia},
+  journal={arXiv preprint arXiv:2211.06869},
+  year={2022}
+}
+```
