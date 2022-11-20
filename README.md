@@ -100,7 +100,7 @@ To avoid the potential issue of using Harry Potter Novels, we promise the annota
 #### Arrtibutes and Relations Download
 We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
 
-**Chinese** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:u:/g/personal/nchen022_connect_hkust-gz_edu_cn/EY6t26kP-4RJmoK8Hj4WF5YBGLZPUxwQB0W3r5te5-mh6Q?e=beZkyH) and [Relations](https://hkustgz-my.sharepoint.com/:u:/g/personal/nchen022_connect_hkust-gz_edu_cn/EUWpgL8E00hOgxy2Fn5vB6YBGJPGd51r9mScQptjsqy9Cw?e=bSSAjy)
+**Chinese** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Emq8snnAuSxBqmwfmwGc8O4Bfz76qAkqmxP_qoS_WLKx-g?e=I51mYV) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EimqQU125LlBocVdkyqYUa0BmiX5vF7Q-UnHiY_dA7L-Lw?e=MbWqqh)
 
 **English** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiUBB4ee6jdJnrvkW5zVjMgB1ylG9QDVTuvItibpFmDtbg?e=rFrG5E) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EoP66AgnW6ZJjACBbMF389cBI4-DEWKeadu2oEphma0xZQ?e=IyzdFO)
 
