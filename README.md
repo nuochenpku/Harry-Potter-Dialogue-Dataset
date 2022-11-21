@@ -107,7 +107,7 @@ We annotate our character and relations chapter by chapter, and store these fine
 #### Json-File Download
 To be convenient for each researcher, we provide a executable file (.exe) to directly extract the line number and page number of each collected dialogue in Harry Potter novel with annotated attributes and relations into json-files.
 
-you can download the executable file from : [English](https://drive.google.com/file/d/1cuoYGpEcux81gHXmmtm2RmZuyHpGCULm/view?usp=share_link) and [Chinese](https://drive.google.com/file/d/1WitTv9TyKDXPGiyBmihFP55r54ZQPcOO/view?usp=share_link).
+you can download the executable file from : [English](https://drive.google.com/file/d/1cuoYGpEcux81gHXmmtm2RmZuyHpGCULm/view?usp=share_link) and [Chinese].
 
 Notice that, the executable file runs the transcript to process the data in our server. Hence, you may need your vpn opened if you are in China Mainland.
 If you have any issuse with getting json files, please drop the email to chennuo26@gmail.com
