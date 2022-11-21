@@ -110,7 +110,7 @@ To be convenient for each researcher, we provide a executable file (.exe) to dir
 you can download the executable file from : [English](https://drive.google.com/file/d/1cuoYGpEcux81gHXmmtm2RmZuyHpGCULm/view?usp=share_link) and [Chinese].
 
 Notice that, the executable file runs the transcript to process the data in our server. Hence, you may need your vpn opened if you are in China Mainland.
-If you have any issuse with getting json files, please drop the email to chennuo26@gmail.com
+If you have any issuse with getting json files, please drop the email to chennuo26@gmail.com.
 #### Data Format
 We process our data in a unified format, and store in json files. The general format is:
 
