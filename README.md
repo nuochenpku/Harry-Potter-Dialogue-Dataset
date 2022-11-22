@@ -1,8 +1,9 @@
 # Harry-Potter-Dialogue-Dataset
  This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***). The HPD is proposed in the paper: [**What would Harry say? Building Dialogue Agents for Characters in a Story**](https://arxiv.org/abs/2211.06869)
  
- 
+**************************** **Updates** ****************************
 
+- 22/11/2022: We provide a new [executable file](https://drive.google.com/file/d/1y5DGM4P-JZQ-Itqph9k5Fgrn8lZjrSrv/view?usp=share_link) to download all collected data in HPD. See [ALL_DATA Download](#all_data-download) for more details.
  
  
 ## Overview
@@ -28,6 +29,9 @@ In this repository, we release ***Chinese and English*** versions of collected *
  - [Data Format](#data-format)
  - [Data Stastics](#data-stastics)
  - [Data Download](#data-download)
+   - [Attributes and Relations Download](#attributes-and-relations-download)
+   - [Json-File Download](#json-file-download)
+   - [ALL_DATA Download](#all_data-download)
 - [Baseline Evaluation and Download](#baseline-evaluation-and-download)
 - [Citation](#citation)
 
@@ -97,8 +101,8 @@ To avoid the potential issue of using Harry Potter Novels, we promise the annota
 
 #### Download
 
-#### Arrtibutes and Relations Download
-We annotate our character and relations chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
+#### Attributes and Relations Download
+We annotate our character and relations of 113 characters chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
 
 **Chinese** version of annotated character and relations can be download here: [Attributes](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Emq8snnAuSxBqmwfmwGc8O4Bfz76qAkqmxP_qoS_WLKx-g?e=I51mYV) and [Relations](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EimqQU125LlBocVdkyqYUa0BmiX5vF7Q-UnHiY_dA7L-Lw?e=MbWqqh)
 
@@ -171,6 +175,13 @@ We process our data in a unified format, and store in json files. The general fo
 
 Also, we can free to change our dataset into other formats, such as ***Personal-Dialogue Format***. Notice that, sometimes "Relations With Harry" could be none if the dialogue speakers not in the annotated 113 important characters.
 
+### All_Data Download
+
+Morever, we provide another [executable file](https://drive.google.com/file/d/1y5DGM4P-JZQ-Itqph9k5Fgrn8lZjrSrv/view?usp=share_link) (.exe) to download:
+
+- All json-format files for training/evaluating.
+- All annotated attributes and relations of 113 important characters stored in excel-format files.
+- Raw novel corpus in Chinese and English. You can utilize them to pre-train your dialogue or text generative models (like GPT-2 in the paper), as well as post-train dialogue retrieval models.
 
 
 
