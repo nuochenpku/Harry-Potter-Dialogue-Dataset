@@ -3,7 +3,7 @@
  
 **************************** **Updates** ****************************
 
-- 22/11/2022: We provide a new [executable file](https://drive.google.com/file/d/1y5DGM4P-JZQ-Itqph9k5Fgrn8lZjrSrv/view?usp=share_link) to download all collected data in HPD. See [ALL_DATA Download](#all_data-download) for more details.
+- 22/11/2022: We provide a new [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) to download all collected data in HPD. See [ALL_DATA Download](#all_data-download) for more details.
  
  
 ## Overview
@@ -177,7 +177,7 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 
 ### All_Data Download
 
-Morever, we provide another [executable file](https://drive.google.com/file/d/1y5DGM4P-JZQ-Itqph9k5Fgrn8lZjrSrv/view?usp=share_link) (.exe) to download:
+Morever, we provide another [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) (.exe) to download:
 
 - All json-format files for training/evaluating.
 - All annotated attributes and relations of 113 important characters stored in excel-format files.
