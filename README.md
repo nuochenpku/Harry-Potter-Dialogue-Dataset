@@ -3,7 +3,7 @@
  
 **************************** **Updates** ****************************
 
-- 6/4/2024: We utilize Chatgpt to polish annotation and revise some mistakes in our test set, and provide a new [executable file](https://drive.google.com/file/d/187ywZegc1YICDLR7snc-PsOLMHbLhNRP/view?usp=sharing) to download all collected data in HPD. See [ALL_DATA Download](#all_data-download) for more details.
+- 6/4/2024: We utilize ChatGPT to polish annotation and revise some mistakes in our test set, and provide a new [executable file](https://drive.google.com/file/d/187ywZegc1YICDLR7snc-PsOLMHbLhNRP/view?usp=sharing) to download all collected data in HPD. See [ALL_DATA Download](#all_data-download) for more details.
 - 22/11/2022: ~~We provide a new [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) to download all collected data in HPD~~. See [ALL_DATA Download](#all_data-download) for more details.
  
  
