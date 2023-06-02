@@ -189,7 +189,7 @@ Morever, we provide another [executable file](https://drive.google.com/file/d/1r
 
 ## Baseline Evaluation and Download
 
-Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
+<!-- Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
 ### Automatic Evaluation
 #### Generative Models
 |Model |  $\textbf{Dist.1}(\uparrow)$| $\textbf{PPL}(\downarrow)$ | $\Delta\textbf{P}(\uparrow)$ | $\textbf{MAuVE}(\uparrow)$ | ${\Delta \textbf{M}}(\uparrow)$  |
@@ -216,13 +216,13 @@ The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparr
 | [EVA](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/Er9KPQnj5TZHk4K5nCZYRCkBRSJ9idwMJwf41T0raZs3FQ?e=0bV0gb) |  $\textbf{4.27}$ | $\textbf{2.38}$  | $\textbf{2.5}$ | 2.04 | 
 | Ori-BOB | 4.01  | 1.93 |  1.78 |1.9 |
 | [Per-BOB](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EtsoTZX_FiROurpSeMMvz58Baf8WRMMSms0KH6Tr6Kew_w?e=JwmHVB)  |4.2  | 2.01 |  2.16 | $\textbf{2.15}$ |
+ -->
 
-
-Note: 
+<!-- Note: 
 - We initialize GPT-2 model from the checkpoint which pre-trained in the Tencent business data (the general results are much better than open-source GPT-2), hence we don't public the source of our GPT-2 here.
 - We initialize our BOB models from [here](https://hkustgz-my.sharepoint.com/:f:/g/personal/nchen022_connect_hkust-gz_edu_cn/EiNa1Hd844BPjrifPzmQMH0By_OppTRQ4nO9uBQR2aQo7Q?e=pQ4qTu). The training scripts of BOB please refer to its originial  [project](https://github.com/songhaoyu/BoB).
 - The training scripts of EVA please refer to its originial  [project](https://github.com/thu-coai/EVA).
-- We post-train BERT-FP models in [Douban corpus](https://github.com/hanjanghoon/BERT_FP) and then fine-tune in HPD dataset to get better performance.
+- We post-train BERT-FP models in [Douban corpus](https://github.com/hanjanghoon/BERT_FP) and then fine-tune in HPD dataset to get better performance. -->
 
 
 ## Citation
