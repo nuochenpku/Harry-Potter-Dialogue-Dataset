@@ -3,7 +3,7 @@
  
 **************************** **Updates** ****************************
 
-- 7/3/2023: We utilize GPT-4 to further polish annotation and revise some mistakes in our test set, and release Official Website of HPD, where you can find more details and download data. We test current LLMs on HPD and report their results on [Baseline Evaluation and Download](#baseline-evaluation-and-download).
+- 7/3/2023: We utilize GPT-4 to further polish annotation and revise some mistakes in our test set, and release [*Official Website*](https://nuochenpku.github.io/HPD.github.io/) of HPD, where you can find more details and download data. We test current LLMs on HPD and report their results on [Baseline Evaluation and Download](#baseline-evaluation-and-download).
 
 - 6/4/2023: We utilize ChatGPT to polish annotation and revise some mistakes in our test set.
 - 22/11/2022: ~~We provide a new [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) to download all collected data in HPD~~. See [ALL_DATA Download](#all_data-download) for more details.
