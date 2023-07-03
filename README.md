@@ -16,7 +16,7 @@ Harry Potter Dialogue is the first dialogue dataset that integrates with **scene
 
 ![](task.png) 
 
-Formally, the task of building dialogue agents for characters in a storyline can be defined as follows: Given a dialogue history $\mathbf{H}$,  corresponding dialogue scene $\mathbf{S}$ and participants information $\mathbf{P}$ as input, which are changed depending on the development of storyline, as shown in the Figure.
+Formally, the task of aligning dialogue agents with characters in a storyline can be defined as follows: Given a dialogue history $\mathbf{H}$,  corresponding dialogue scene $\mathbf{S}$ and participants information $\mathbf{P}$ as input, which are changed depending on the development of storyline, as shown in the Figure.
 
 The dialogue agent  is supposed to generate a  response $\mathbf{Y} = y_1, y_2,...,y_n$:
 
@@ -190,7 +190,8 @@ Morever, we provide another [executable file](https://drive.google.com/file/d/1r
 
 
 ## Baseline Evaluation and Download
-
+Here we report automatic and huaman evaluations results of four baselines in our paper (only English at the time).
+![](main_results.png) 
 <!-- Here we report automatic and huaman evaluations results of four baselines in our paper (only Chinese at the time).
 ### Automatic Evaluation
 #### Generative Models
