@@ -1,15 +1,18 @@
 # Harry-Potter-Dialogue-Dataset
- This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***). The HPD is proposed in the paper: [**What would Harry say? Building Dialogue Agents for Characters in a Story**](https://arxiv.org/abs/2211.06869)
+ This repository contains resources for accessing the official training and test data of Harry Potter Dialogue Dataset (***HPD***). The HPD is proposed in the paper: [**Large Language Models Meet Harry Potter:
+A Bilingual Dataset for Aligning Dialogue Agents with Characters**](https://arxiv.org/abs/2211.06869)
  
 **************************** **Updates** ****************************
+
+- 10/09/2023: Our paper accepted in EMNLP2023-Findings.
 
 - 7/3/2023: We utilize GPT-4 to further polish annotation and revise some mistakes in our test set, and release [*Official Website*](https://nuochenpku.github.io/HPD.github.io/) of HPD, where you can find more details and download data. We test current LLMs on HPD and report their results on [Baseline Evaluation and Download](#baseline-evaluation-and-download).
 
 - 6/4/2023: We utilize ChatGPT to polish annotation and revise some mistakes in our test set.
 - 22/11/2022: ~~We provide a new [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) to download all collected data in HPD~~. See [ALL_DATA Download](#all_data-download) for more details.
  
-## Website
- Our official website is at https://nuochenpku.github.io/HPD.github.io/. We will add a leaderboard of LLMs and new paper in this website.
+# Website
+ Our official website is at [**HPDialogue**](https://nuochenpku.github.io/HPD.github.io/). We will add a leaderboard of LLMs and new paper in this website.
 ## Overview
 We present HPD: Harry Potter Dialogue Dataset to facilitate the study of building dialogue agents for characters in a story. It differs from existing dialogue datasets in two aspects: 1) HPD provides rich background information about the novel Harry Potter, including scene, character attributes, and character relations; 2) All these background information will change as the story goes on. In other words, each dialogue session in HPD correlates to a different background, and the storyline determines how the background changes.
 
@@ -83,20 +86,20 @@ $\texttt{Score(Affection)>0}$ denotes the character has the positive relationshi
 Detailed annotation steps and rules can be seen in our paper.
 
 
+<!--
+%### Data Stastics
 
-### Data Stastics
 
-
-| Train | Chinese|English| Test | Chinese|English|
-| :----- | :-------------------:| :------------------: |:----- | :-------------------:| :------------------: |
-| Average Turns | 13.8  | 14.25  |Average Turns | 8.6 | 6.58 |
-| Maximum Speakers| 20  | 20 |Maximum Speakers| 8 | 8 |
-| Minimum Speakers | 2  | 2  |Minimum Speakers | 2 | 2 |
-| Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
-| Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
-| Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
-| Total Dialogues | 1042 | 1097 |Total Dialogues | 178 | 165 |
-
+%| Train | Chinese|English| Test | Chinese|English|
+%| :----- | :-------------------:| :------------------: |:----- | :-------------------:| :------------------: |
+%| Average Turns | 13.8  | 14.25  |Average Turns | 8.6 | 6.58 |
+%| Maximum Speakers| 20  | 20 |Maximum Speakers| 8 | 8 |
+%| Minimum Speakers | 2  | 2  |Minimum Speakers | 2 | 2 |
+%| Average Utterance Length | 32.9 | 17.4 |Average Utterance Length | 28.3| 17.42 |
+%| Maximum Utterance Length | 77 | 68 |Maximum Utterance Length | 31 | 28 |
+%| Minimum Utterance Length | 3 | 1 |Minimum Utterance Length | 7 | 1 |
+%| Total Dialogues | 1042 | 1097 |Total Dialogues | 178 | 165 |
+-->
 
 
 ### Data Download
@@ -105,6 +108,9 @@ To avoid the potential issue of using Harry Potter Novels, we promise the annota
 
 #### Download
 
+As for downloading our datasets, please refer to our new website [**HPDialogue**](https://nuochenpku.github.io/HPD.github.io/).
+
+<!--
 #### Attributes and Relations Download
 We annotate our character and relations of 113 characters chapter by chapter, and store these fine-grained annotated data in ***excel*** files.
 
@@ -119,6 +125,8 @@ you can download the executable file from : [Executable File](https://drive.goog
 
 Notice that, the executable file runs the transcript to process the data in our server. Hence, you may need your vpn opened if you are in China Mainland.
 If you have any issuse with getting json files, please drop the email to chennuo26@gmail.com.
+
+-->
 #### Data Format
 We process our data in a unified format, and store in json files. The general format is:
 
@@ -181,7 +189,10 @@ Also, we can free to change our dataset into other formats, such as ***Personal-
 
 ### All_Data Download
 
-Morever, we provide another [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) (.exe) to download:
+<!-- another [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) (.exe)
+-->
+
+Morever, we provide [**HPD**](https://nuochenpku.github.io/HPD.github.io/) to download:
 
 - All json-format files for training/evaluating.
 - All annotated attributes and relations of 113 important characters stored in excel-format files.
@@ -231,10 +242,12 @@ The definitions of  $\Delta\textbf{P}(\uparrow)$ and ${\Delta \textbf{M}}(\uparr
 
 ## Citation
 ```
-  @article{chen2022would,
-  title={What would Harry say? Building Dialogue Agents for Characters in a Story},
-  author={Chen, Nuo and Wang, Yan and Jiang, Haiyun and Cai, Deng and Chen, Ziyang and Li, Jia},
-  journal={arXiv preprint arXiv:2211.06869},
-  year={2022}
+  @misc{chen2023large,
+      title={Large Language Models Meet Harry Potter: A Bilingual Dataset for Aligning Dialogue Agents with Characters}, 
+      author={Nuo Chen and Yan Wang and Haiyun Jiang and Deng Cai and Yuhan Li and Ziyang Chen and Longyue Wang and Jia Li},
+      year={2023},
+      eprint={2211.06869},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
