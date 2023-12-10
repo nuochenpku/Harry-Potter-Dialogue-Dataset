@@ -12,7 +12,12 @@ A Bilingual Dataset for Aligning Dialogue Agents with Characters**](https://arxi
 - 22/11/2022: ~~We provide a new [executable file](https://drive.google.com/file/d/1rDQs0O8CGrqBKHaJGYzwJiky23FzXuAZ/view?usp=share_link) to download all collected data in HPD~~. See [ALL_DATA Download](#all_data-download) for more details.
  
 # Website
- Our official website is at [**HPDialogue**](https://nuochenpku.github.io/HPD.github.io/). We will add a leaderboard of LLMs and new paper in this website.
+ 
+
+<div align="center">
+ 🔥 🔥 🔥 Check out our <a href = "https://nuochenpku.github.io/HPD.github.io/">[HPD Project Page]</a> for more results and downloading datasets!  🔥 🔥 🔥
+</div>
+ 
 ## Overview
 We present HPD: Harry Potter Dialogue Dataset to facilitate the study of building dialogue agents for characters in a story. It differs from existing dialogue datasets in two aspects: 1) HPD provides rich background information about the novel Harry Potter, including scene, character attributes, and character relations; 2) All these background information will change as the story goes on. In other words, each dialogue session in HPD correlates to a different background, and the storyline determines how the background changes.
 
